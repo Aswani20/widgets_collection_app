@@ -1,30 +1,24 @@
 # Widgets Collection App
 
-A modern **Flutter application**  
-The app collect some widgets to use in any project.
+A templeate **Flutter application**  
+collect some widgets to use in any project.
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.24-blue?logo=flutter)](https://flutter.dev)
-[![Stars](https://img.shields.io/github/stars/Aswani20/flower_app?style=social)](https://github.com/Aswani20/flower_app/stargazers)
-[![Issues](https://img.shields.io/github/issues/Aswani20/flower_app)](https://github.com/Aswani20/flower_app/issues)
-[![License](https://img.shields.io/github/license/Aswani20/flower_app)](LICENSE)
-[![Forks](https://img.shields.io/github/forks/Aswani20/flower_app?style=social)](https://github.com/Aswani20/flower_app/network/members)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Aswani20/flower_app/pulls)
-[![Made with Love](https://img.shields.io/badge/Made%20with-%F0%9F%92%9F-pink)](https://github.com/Aswani20/flower_app)
+[![Stars](https://img.shields.io/github/stars/Aswani20/widgets_collection_app?style=social)](https://github.com/Aswani20/widgets_collection_app/stargazers)
+[![Issues](https://img.shields.io/github/issues/Aswani20/widgets_collection_app)](https://github.com/Aswani20/widgets_collection_app/issues)
+[![License](https://img.shields.io/github/license/Aswani20/widgets_collection_app)](LICENSE)
+[![Forks](https://img.shields.io/github/forks/Aswani20/widgets_collection_app?style=social)](https://github.com/Aswani20/widgets_collection_app/network/members)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Aswani20/widgets_collection_app/pulls)
+[![Made with Love](https://img.shields.io/badge/Made%20with-%F0%9F%92%9F-pink)](https://github.com/Aswani20/widgets_collection_app)
 
 
 ## 📱 Features
-- 🔑 User authentication (Signup / Login with JWT)
-- 🛒 Add, update, and remove items from the cart
-- 💳 Checkout process
-- 📦 Product listing and details
-- 🎨 Responsive UI with Material Design
-- 🧱 Clean Architecture (API, Data, Domain, Presentation layers)
-
-
-## 📡 API Documentation
-
-This app communicates with a custom backend to manage products, carts, and orders.  
-The base URL for all requests is: https://flower.elevateegy.com/api/v1
+- Normal Onboarding Screen
+- Animated Onboarding Screen
+- Collapsible Side Bar
+- Animated Drawer
+- Tinder Swipe Cards
+- Floating Bottom BAr 
 
 
 ## Screenshots
