@@ -1,4 +1,4 @@
-# Widgets Collection App
+# 🛠️ Widgets Collection App
 
 A templeate **Flutter application**  
 collect some widgets to use in any project.
@@ -13,12 +13,12 @@ collect some widgets to use in any project.
 
 
 ## 📱 Features
-- Normal Onboarding Screen
-- Animated Onboarding Screen
-- Collapsible Side Bar
-- Animated Drawer.
-- Tinder Swipe Cards
-- Floating Bottom BAr 
+- ✨ Normal Onboarding Screen
+- 🚀 Animated Onboarding Screen
+- ➡️ Collapsible Side Bar
+- 🚪 Animated Drawer
+- 🃏 Tinder Swipe Cards
+- ⚓ Floating Bottom Bar
 
 
 ## Screenshots
@@ -48,12 +48,12 @@ Here are some screenshots of the app in action:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Aswani20/flower_app.git
+    git clone https://github.com/Aswani20/widgets_collection_app.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd flower_app
+    cd widgets_collection_app
     ```
 
 3. Install dependencies:
@@ -65,14 +65,7 @@ Here are some screenshots of the app in action:
     ```bash
     flutter run
     ```
-
-### Testing
-
-1. Run the app:
-
-    ```bash
-    flutter test
-    ```
+    
 
 ## 🤝 Contributing
 
@@ -94,18 +87,4 @@ Distributed under the MIT License. See LICENSE for more information.
 ## 👨‍💻 Author
 
 1. Abdelrahman Youssef
-2. Ali Mohamed
-3. Marwan Elsokary
-4. Lbar Sidati
 
-
-## Folder Structure
-
-```text
-lib/
-│
-├── api_layer/          # Retrofit/Dio API setup
-├── data_layer/         # Data sources & repositories
-├── domain_layer/       # Use cases & entities
-├── presentation_layer/ # UI & state management (Cubit/Bloc)
-└── main.dart
