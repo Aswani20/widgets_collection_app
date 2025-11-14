@@ -16,7 +16,7 @@ collect some widgets to use in any project.
 - Normal Onboarding Screen
 - Animated Onboarding Screen
 - Collapsible Side Bar
-- Animated Drawer
+- Animated Drawer.
 - Tinder Swipe Cards
 - Floating Bottom BAr 
 
