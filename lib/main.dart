@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:template_app/collapsible_sidebar/sidebar_screen.dart';
 import 'package:template_app/core/route/app_routes.dart';
 import 'package:template_app/core/route/routes.dart';
+import 'package:template_app/tinder_swipe_cards/tinder_swipe_screen.dart';
+import 'animated_drawer/zoom_drawer_screen.dart' show ZoomDrawerScreen;
 import 'home_screen.dart';
 import 'onboarding/on_boarding_screen.dart';
 
@@ -21,9 +23,12 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: Routes.generateRoute,
       initialRoute: AppRoutes.homeScreen,
       routes: {
-        AppRoutes.onBoardingScreen: (context) => OnBoardingPage(),
         AppRoutes.homeScreen: (context) => HomeScreen(),
+        AppRoutes.onBoardingScreen: (context) => OnBoardingPage(),
         AppRoutes.sideBarScreen: (context) => SidebarScreen(),
+        AppRoutes.zoomDrawerScreen: (context) => ZoomDrawerScreen(),
+        AppRoutes.tinderSwipeScreen: (context) => TinderSwipeScreen(),
+        AppRoutes.floatingBottomBarScreen: (context) => TinderSwipeScreen(),
       },
     );
   }
