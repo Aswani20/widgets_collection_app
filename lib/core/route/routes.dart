@@ -5,6 +5,7 @@ import 'package:template_app/collapsible_sidebar/sidebar_screen.dart';
 import 'package:template_app/core/extensions/project_extensions.dart';
 import 'package:template_app/home_screen.dart';
 import 'package:template_app/onboarding/on_boarding_screen.dart';
+import 'package:template_app/tinder_swipe_cards/tinder_swipe_screen.dart';
 import 'app_routes.dart';
 
 abstract class Routes {
@@ -19,6 +20,8 @@ abstract class Routes {
         return MaterialPageRoute(builder: (_) => SidebarScreen());
       case AppRoutes.zoomDrawerScreen:
         return MaterialPageRoute(builder: (_) => ZoomDrawerScreen());
+      case AppRoutes.tinderSwipeScreen:
+        return MaterialPageRoute(builder: (_) => TinderSwipeScreen());
       default:
         return MaterialPageRoute(builder: (context) => NotFoundScreen());
     }

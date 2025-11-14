@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
+import 'package:template_app/core/route/app_routes.dart';
 
 import 'main_screen.dart';
 import 'menu_screen.dart';
@@ -21,6 +22,7 @@ class _ZoomDrawerScreenState extends State<ZoomDrawerScreen> {
       menuScreen: MenuScreen(
         onItemSelected: () {
           _drawerController.toggle!();
+          Navigator.pushReplacementNamed(context, AppRoutes.homeScreen);
         },
       ),
       mainScreen: MainScreen(
