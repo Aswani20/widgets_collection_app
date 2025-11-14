@@ -52,6 +52,16 @@ class HomeScreen extends StatelessWidget {
               ),
               child: Text("Go To Tinder Swipe Cards"),
             ),
+            16.heightBox,
+            ElevatedButton(
+              onPressed: () =>
+                  Navigator.pushNamed(context, AppRoutes.floatingBottomBarScreen),
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue[400],
+                  foregroundColor: Colors.white
+              ),
+              child: Text("Go To Floating Bottom Bar"),
+            ),
           ],
         ),
       ),

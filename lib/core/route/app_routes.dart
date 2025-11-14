@@ -4,4 +4,5 @@ abstract class AppRoutes {
   static const String sideBarScreen = "/side_bar_screen";
   static const String zoomDrawerScreen = "/zoom_drawer_screen";
   static const String tinderSwipeScreen = "/tinder_swipe_screen";
+  static const String floatingBottomBarScreen = "/floating_bottom_bar_screen";
 }
