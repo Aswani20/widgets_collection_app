@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Template App",
+      title: "Widgets Collection App",
       locale: Locale("en"),
       onGenerateRoute: Routes.generateRoute,
       initialRoute: AppRoutes.homeScreen,

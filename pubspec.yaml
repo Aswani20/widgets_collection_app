@@ -1,5 +1,5 @@
-name: template_app
-description: "A new Flutter project."
+name: widgets_collection_app
+description: "Flutter project collect some widgets to use in any project."
 publish_to: 'none'
 version: 1.0.0+1
 environment:
@@ -27,12 +27,3 @@ flutter:
   uses-material-design: true
   assets:
      - assets/images/
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-
-
-
