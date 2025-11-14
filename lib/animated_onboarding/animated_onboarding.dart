@@ -1,6 +1,6 @@
 import 'package:concentric_transition/concentric_transition.dart';
 import 'package:flutter/material.dart';
-import 'package:template_app/core/route/app_routes.dart';
+import 'package:widgets_collection_app/core/route/app_routes.dart';
 
 class AnimatedOnboarding extends StatelessWidget {
   AnimatedOnboarding({super.key});

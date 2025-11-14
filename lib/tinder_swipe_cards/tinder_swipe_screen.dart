@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
-import 'package:template_app/core/route/app_routes.dart';
+import 'package:widgets_collection_app/core/route/app_routes.dart';
 
 
 class TinderSwipeScreen extends StatefulWidget {
@@ -94,6 +94,7 @@ class _TinderSwipeScreenState extends State<TinderSwipeScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 FloatingActionButton(
+                  heroTag: "dislike",
                   onPressed: () => controller.swipe(CardSwiperDirection.left),
                   backgroundColor: Colors.white,
                   elevation: 4,
@@ -101,6 +102,7 @@ class _TinderSwipeScreenState extends State<TinderSwipeScreen> {
                 ),
                 const SizedBox(width: 30),
                 FloatingActionButton(
+                  heroTag: "star",
                   onPressed: () => controller.swipe(CardSwiperDirection.top),
                   backgroundColor: Colors.white,
                   elevation: 4,
@@ -108,6 +110,7 @@ class _TinderSwipeScreenState extends State<TinderSwipeScreen> {
                 ),
                 const SizedBox(width: 30),
                 FloatingActionButton(
+                  heroTag: "like",
                   onPressed: () => controller.swipe(CardSwiperDirection.right),
                   backgroundColor: Colors.white,
                   elevation: 4,
@@ -117,6 +120,7 @@ class _TinderSwipeScreenState extends State<TinderSwipeScreen> {
             ),
             const SizedBox(height: 20),
             FloatingActionButton(
+              heroTag: "home",
               onPressed: () => Navigator.pushReplacementNamed(context, AppRoutes.homeScreen),
               backgroundColor: Colors.white,
               elevation: 4,

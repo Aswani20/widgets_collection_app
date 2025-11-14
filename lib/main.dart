@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:template_app/collapsible_sidebar/sidebar_screen.dart';
-import 'package:template_app/core/route/app_routes.dart';
-import 'package:template_app/core/route/routes.dart';
-import 'package:template_app/tinder_swipe_cards/tinder_swipe_screen.dart';
+import 'package:widgets_collection_app/tinder_swipe_cards/tinder_swipe_screen.dart';
 import 'animated_drawer/zoom_drawer_screen.dart' show ZoomDrawerScreen;
 import 'animated_onboarding/animated_onboarding.dart';
+import 'collapsible_sidebar/sidebar_screen.dart';
+import 'core/route/app_routes.dart';
+import 'core/route/routes.dart';
 import 'floating_bottom_bar/floating_bottom_bar_screen.dart';
 import 'home_screen.dart';
 import 'onboarding/on_boarding_screen.dart';

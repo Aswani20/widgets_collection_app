@@ -1,13 +1,13 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:template_app/animated_drawer/zoom_drawer_screen.dart';
-import 'package:template_app/animated_onboarding/animated_onboarding.dart';
-import 'package:template_app/collapsible_sidebar/sidebar_screen.dart';
-import 'package:template_app/core/extensions/project_extensions.dart';
-import 'package:template_app/floating_bottom_bar/floating_bottom_bar_screen.dart';
-import 'package:template_app/home_screen.dart';
-import 'package:template_app/onboarding/on_boarding_screen.dart';
-import 'package:template_app/tinder_swipe_cards/tinder_swipe_screen.dart';
+import 'package:widgets_collection_app/animated_drawer/zoom_drawer_screen.dart';
+import 'package:widgets_collection_app/animated_onboarding/animated_onboarding.dart';
+import 'package:widgets_collection_app/collapsible_sidebar/sidebar_screen.dart';
+import 'package:widgets_collection_app/core/extensions/project_extensions.dart';
+import 'package:widgets_collection_app/floating_bottom_bar/floating_bottom_bar_screen.dart';
+import 'package:widgets_collection_app/home_screen.dart';
+import 'package:widgets_collection_app/onboarding/on_boarding_screen.dart';
+import 'package:widgets_collection_app/tinder_swipe_cards/tinder_swipe_screen.dart';
 import 'app_routes.dart';
 
 abstract class Routes {

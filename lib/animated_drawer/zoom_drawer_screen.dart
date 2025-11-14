@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
-import 'package:template_app/core/route/app_routes.dart';
-
+import 'package:widgets_collection_app/core/route/app_routes.dart';
 import 'main_screen.dart';
 import 'menu_screen.dart';
 

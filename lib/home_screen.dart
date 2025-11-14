@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:template_app/core/extensions/project_extensions.dart';
-import 'package:template_app/core/route/app_routes.dart';
+import 'package:widgets_collection_app/core/extensions/project_extensions.dart';
+
+import 'core/route/app_routes.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
