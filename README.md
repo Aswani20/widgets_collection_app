@@ -26,10 +26,14 @@ collect some widgets to use in any project.
 Here are some screenshots of the app in action:
 
 <p align="center">
-  <img src="assets/screenshots/login.png" alt="Login Screen" width="20%" />
-  <img src="assets/screenshots/register.png" alt="Register Screen" width="20%" />
-  <img src="assets/screenshots/home_screen.png" alt="Home screen" width="20%" />
-  <img src="assets/screenshots/setting_screen.png" alt="Setting Screen" width="20%" />
+  <img src="assets/screenshots/home_screen.png" alt="Home Screen" width="20%" />
+  <img src="assets/screenshots/onboarding.png" alt="Onboarding Screen" width="20%" />
+  <img src="assets/screenshots/animated_onboarding1.png" alt="Animated Onboarding Screen 1" width="20%" />
+  <img src="assets/screenshots/animated_onboarding2.png" alt="Animated Onboarding Screen 2" width="20%" />
+  <img src="assets/screenshots/side_bar.png" alt="Side Bar" width="20%" />
+  <img src="assets/screenshots/animated_drawer.png" alt="Animated Drawer" width="20%" />
+  <img src="assets/screenshots/tinder_swipe_cards.png" alt="Tinder Swipe Cards" width="20%" />
+  <img src="assets/screenshots/floating_bottom_bar.png" alt="Floating Bottom Bar" width="20%" />
 </p>
 
 
